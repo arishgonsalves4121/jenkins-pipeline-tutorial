@@ -19,6 +19,7 @@ pipeline {
         stage('Run Unit Tests') {
             steps {
                 echo 'Run unit tests from the source code' 
+                echo ' arish gonsalves te it a 40'
             }
         }
         stage('Run Integration Tests') {
